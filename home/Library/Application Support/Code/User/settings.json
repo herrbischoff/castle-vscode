@@ -24,6 +24,7 @@
         "**/.DS_Store": true,
         "**/node_modules": true,
         "**/.happypack": true,
+        "**/.vscode": true,
         "tags": true,
         "dist": true
     },
@@ -36,5 +37,25 @@
     "terminal.external.osxExec": "iTerm.app",
     "workbench.tips.enabled": false,
     "explorer.openEditors.visible": 0,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "window.restoreWindows": "none",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.lineHeight": 0,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.dragAndDrop": false,
+    "editor.accessibilitySupport": "off",
+    "diffEditor.renderSideBySide": false,
+    "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
+    "vetur.format.styleInitialIndent": true,
+    "vetur.format.scriptInitialIndent": true,
+    "git.enableCommitSigning": true,
+    "window.nativeTabs": true
 }
