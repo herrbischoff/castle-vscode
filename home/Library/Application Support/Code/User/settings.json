@@ -52,10 +52,44 @@
     "editor.dragAndDrop": false,
     "editor.accessibilitySupport": "off",
     "diffEditor.renderSideBySide": false,
-    "files.autoGuessEncoding": true,
+    "files.autoGuessEncoding": false,
     "files.trimTrailingWhitespace": true,
     "vetur.format.styleInitialIndent": true,
     "vetur.format.scriptInitialIndent": true,
     "git.enableCommitSigning": true,
-    "window.nativeTabs": true
+    "window.nativeTabs": false,
+    "AsciiDoc.html_generator": "asciidoctor -o-",
+    "vim.statusBarColorControl": true,
+    "vim.visualstar": true,
+    "vim.foldfix": true,
+    "vim.substituteGlobalFlag": true,
+    "telemetry.enableTelemetry": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "code-runner.enableAppInsights": false,
+    "rest-client.enableTelemetry": false,
+    "gitlens.blame.line.enabled": false,
+    "gitlens.blame.file.annotationType": "hover",
+    "python.venvPath": "~/pyenv",
+    "python.pythonPath": "~/.pyenv/shims/python",
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[rust]": {
+        "editor.tabSize": 4
+    },
+    "vim.neovimPath": "/Users/mbischoff/homebrew/bin/nvim",
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "explorer.confirmDelete": false,
+    "workbench.panel.location": "right",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.encoding": "utf8",
+    "files.associations": {
+        "*.html": "html"
+    }
+    // "editor.hover": false
 }
