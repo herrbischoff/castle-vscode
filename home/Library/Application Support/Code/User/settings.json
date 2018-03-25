@@ -1,7 +1,8 @@
 {
     "vim.enableNeovim": true,
     "vim.disableAnnoyingNeovimMessage": true,
-    "editor.fontFamily": "OperatorMonoForPowerline-Book",
+    // "editor.fontFamily": "OperatorMonoForPowerline-Book",
+    "editor.fontFamily": "Fira Mono",
     "editor.fontSize": 14,
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
@@ -33,7 +34,7 @@
     "editor.fontLigatures": true,
     "files.insertFinalNewline": true,
     "workbench.activityBar.visible": false,
-    "vim.leader": " ",
+    "vim.leader": "<space>",
     "terminal.external.osxExec": "iTerm.app",
     "workbench.tips.enabled": false,
     "explorer.openEditors.visible": 0,
@@ -48,7 +49,7 @@
     "editor.lineHeight": 0,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "none",
     "editor.dragAndDrop": false,
     "editor.accessibilitySupport": "off",
     "diffEditor.renderSideBySide": false,
@@ -77,7 +78,7 @@
     "[rust]": {
         "editor.tabSize": 4
     },
-    "vim.neovimPath": "/Users/mbischoff/homebrew/bin/nvim",
+    "vim.neovimPath": "/usr/local/bin/nvim",
     "stylelint.enable": true,
     "css.validate": false,
     "scss.validate": false,
@@ -90,6 +91,26 @@
     "files.encoding": "utf8",
     "files.associations": {
         "*.html": "html"
-    }
+    },
+    "vim.hlsearch": true,
+    "vim.cmdLineInitialColon": true,
+    "vim.sneak": true,
+    "workbench.statusBar.feedback.visible": false,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        }
+    ],
+    "eslint.packageManager": "yarn",
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "telemetry.enableCrashReporter": false,
+    "npm.packageManager": "yarn",
+    "eslint.options": { "configFile": "/Users/mbischoff/.eslintrc.json" }
     // "editor.hover": false
 }
